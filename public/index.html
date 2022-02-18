@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form Validate/Submit Example</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <script src="/scripts/index.js" defer></script>
+  </head>
+  <body>
+    <form action="/auth/signup" method="post">
+      <h1>Sign Up</h1>
+      <div>
+        <label for="username-input">Username</label>
+        <input id="username-input" type="text" name="username" />
+        <p id="username-error" class="error error--hidden">Username invalid</p>
+      </div>
+      <div>
+        <label for="password-input">Password</label>
+        <input id="password-input" type="text" name="password" />
+        <p id="password-error" class="error error--hidden">Username invalid</p>
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </body>
+</html>

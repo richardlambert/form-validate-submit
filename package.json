@@ -1,0 +1,15 @@
+{
+  "name": "discord-qa",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "Richard Lambert <hello@richardlambert.dev> (https://www.richardlambert.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

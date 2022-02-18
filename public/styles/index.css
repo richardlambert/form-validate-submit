@@ -1,0 +1,7 @@
+.error {
+  color: white;
+}
+
+.error--hidden {
+  display: none;
+}
